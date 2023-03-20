@@ -361,16 +361,15 @@ section {
 }
 
 .customers-list__icon {
-    fill: var(--color-light-slate);
+    fill: currentColor;
     border: 1px solid var(--color-light-slate);
     border-radius: 4px;
 }
 
-.customers-list__icon:hover,
-.customers-list__icon:focus {
-    fill: var(--color-ocean);
-    border: 1px solid var(--color-ocean);
-    border-radius: 4px;
+.customers-list__link:hover,
+.customers-list__link:focus {
+    color: var(--color-ocean);
+    
 }
 
 /* Footer */
